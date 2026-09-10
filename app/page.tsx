@@ -150,6 +150,7 @@ function SectionImage({
       alt={alt}
       fill
       priority={priority}
+      loading={priority ? "eager" : undefined}
       sizes={sizes}
     />
   );
